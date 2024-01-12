@@ -1,0 +1,489 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>唯涵永存</title>
+		<meta name="keywords" content=" ">
+		<meta name="description" content="   ">
+		<meta name="author" content="www.">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+		<link rel="shortcut icon" href="index/images/favicon.ico">
+		<link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+		<link href="css/prettyPhoto.css" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/content_switch.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/cScroll.js"></script>
+		<script src="js/jquery.cycle.all.latest.js" type="text/javascript"></script>
+		<script src="js/jquery.color.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+		<script src="js/prettyPhoto.js"></script>
+		<!--[if lt IE 9]>
+  	<script type="text/javascript" src="./js/html5.js"></script>
+    <link rel="stylesheet" href="./css/ie.css" type="text/css" media="all">
+  <![endif]-->
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
+		</div>
+	<![endif]-->
+	<body onpaste="return false" ondragstart="return false" onmouseover="window.status='';return true"
+		oncopy="return false;">
+		<frameset>
+			<frame src="index.html">
+		</frameset>
+		<script>
+			function stop() {
+				alert('张博涵，我喜欢你！');
+				return false;
+			}
+			document.oncontextmenu = stop;
+		</script>
+		<body onselectstart="return false" onpaste="return false" oncopy="return false;" oncut="return false;">
+
+			<script>
+				function checkhtml5() {
+					if ($.browser.msie && parseInt($.browser.version, 10) < 9) {
+						document.body.innerHTML =
+							"<div style=' clear: both; text-align:center; position: relative; height: 50px; margin-top: 30px; padding: 20px; background-color: red; color: white; font-size:20px;'>你的浏览器非常落后，不支持 HTML5!<br/>请使用 Chrome 14+/IE 9+/Firefox 7+/Safari 4+ 其中任意一款浏览器访问此页面。</a></div>";
+
+					}
+				}
+			</script>
+			<style>
+				#footer-music {
+					position: fixed;
+					bottom: 0;
+				}
+
+				a.wb_sina {
+					float: left;
+					margin-top: 20px;
+					margin-left: 15px;
+					display: inline-block;
+					padding: 4px 10px;
+					border-radius: 3px;
+					background-color: #e55345;
+					background-image: -moz-linear-gradient(top, #e96249, #e03c40);
+					background-image: -ms-linear-gradient(top, #e96249, #e03c40);
+					background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e96249), to(#e03c40));
+					background-image: -webkit-linear-gradient(top, #e96249, #e03c40);
+					background-image: -o-linear-gradient(top, #e96249, #e03c40);
+					background-image: linear-gradient(top, #e96249, #e03c40);
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e96249', endColorstr='#e03c40', GradientType=0);
+					background-repeat: repeat-x;
+					text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+					border: 1px solid #cf2b28;
+					color: #fff !important;
+					box-shadow: 0 1px 0 rgba(255, 255, 255, .2) inset, 0 1px 0 rgba(0, 0, 0, .2);
+				}
+
+				a.wb_sina:hover {
+					background-image: -moz-linear-gradient(top, #e03c40, #e96249);
+					background-image: -ms-linear-gradient(top, #e03c40, #e96249);
+					background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e03c40), to(#e96249));
+					background-image: -webkit-linear-gradient(top, #e03c40, #e96249);
+					background-image: -o-linear-gradient(top, #e03c40, #e96249);
+					background-image: linear-gradient(top, #e03c40, #e96249);
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e03c40', endColorstr='#e96249', GradientType=0);
+				}
+
+				a.wb_sina span {
+					display: inline-block;
+					vertical-align: -5px;
+					margin-right: 7px;
+					height: 20px;
+					width: 24px;
+					background: url(./images/weibo.png) no-repeat;
+				}
+
+				a.wb_tencent {
+					float: left;
+					margin-top: 20px;
+					margin-left: 15px;
+					display: inline-block;
+					padding: 4px 10px;
+					border-radius: 3px;
+					background-color: #0e7fcc;
+					background-image: -moz-linear-gradient(top, #1288d4, #0771c1);
+					background-image: -ms-linear-gradient(top, #1288d4, #0771c1);
+					background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1288d4), to(#0771c1));
+					background-image: -webkit-linear-gradient(top, #1288d4, #0771c1);
+					background-image: -o-linear-gradient(top, #1288d4, #0771c1);
+					background-image: linear-gradient(top, #1288d4, #0771c1);
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1288d4', endColorstr='#0771c1', GradientType=0);
+					background-repeat: repeat-x;
+					text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+					border: 1px solid #0D6EB8;
+					color: #fff !important;
+					box-shadow: 0 1px 0 rgba(255, 255, 255, .2) inset, 0 1px 0 rgba(0, 0, 0, .2);
+				}
+
+				a.wb_tencent:hover {
+					background-color: #0e7fcc;
+					background-image: -moz-linear-gradient(top, #0771c1, #1288d4);
+					background-image: -ms-linear-gradient(top, #0771c1, #1288d4);
+					background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0771c1), to(#1288d4));
+					background-image: -webkit-linear-gradient(top, #0771c1, #1288d4);
+					background-image: -o-linear-gradient(top, #0771c1, #1288d4);
+					background-image: linear-gradient(top, #0771c1, #1288d4);
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0771c1', endColorstr='#1288d4', GradientType=0);
+				}
+
+				a.wb_tencent span {
+					display: inline-block;
+					vertical-align: -5px;
+					margin-right: 7px;
+					height: 20px;
+					width: 24px;
+					background: url(./images/weibo.png) no-repeat 0 -20px;
+				}
+
+				#abox {
+					position: fixed;
+					_position: absolute;
+					right: 15px;
+					z-index: 99999999;
+				}
+
+				}
+			</style>
+
+			</head>
+
+
+			<body onLoad="checkhtml5()">
+
+				<div id="abox">
+				</div>
+				<div class="page_spinner">
+					<div></div>
+				</div>
+				<div class="over">
+					<div class="centre">
+						<div class="main">
+							<!--header -->
+							<header>
+								<h1><span id="logo"><img src="images/logo1.png" alt="" usemap="#logo"></span></h1>
+								<nav class="menu">
+									<ul id="menu">
+										<li id="nav1"><img src="images/nav1.png" alt=""><span>爱的宣言</span></li>
+										<li id="nav2"><img src="images/nav2.png" alt=""><span>恋爱历程</span></li>
+										<li id="nav3"><img src="images/nav3.png" alt=""><span>絮叨絮叨</span></li>
+										<li id="nav4"><img src="images/nav4.png" alt=""><span>我的祝福</span></li>
+										<li id="nav5"><img src="images/nav5.png" alt=""><span>爱的映像</span></li>
+										<li id="nav6"><img src="images/nav6.png" alt=""><span>时光沙漏</span></li>
+									</ul>
+								</nav>
+								<img src="images/spacer.gif" alt="" id="navigation" usemap="#navigation">
+								<map name="navigation" class="navigation">
+								</map>
+								<map name="logo" class="map_logo"></map>
+							</header>
+							<!--header end-->
+							<!--content -->
+							<map name="back" class="map_back"></map>
+							<article id="content">
+								<ul>
+
+									<li id="page_Home">
+										<img src="images/bg_content.png" alt="" class="bg_cont">
+										<span class="back"><img src="images/nav1.png" alt="" usemap="#back"><a
+												href="index.html#close">返回</a></span>
+
+										<div class="pad">
+											<h2>爱的宣言</h2>
+											人物：刘懿冈 &amp; 张博涵<br />
+											不在乎曾经拥有，只在乎天长地久。<br />
+											爱，就要说出来！<br />
+											再美好的回忆，也只是回忆；<br />
+											再美丽的诺言，不到实现的那一刻，也只是一句空话。<br />
+											我爱你，不仅在今天，更在未来的每一天，<br />
+											不仅仅是言语，更是我对你的誓言<br />
+											我希望我可以永远爱你，珍视你，守护你。<br />
+											爱情不分性别，爱不分年龄，性别，国界。<br />
+											爱也没有对错。爱是信仰，是救赎，是互相尊重，是包容，是理解，是信任。<br/>
+											爱是努力变成更好的人只为站在ta的身边。<br />
+											爱，这种事物很纯粹，喜欢一个人，喜欢的是你这个人，而不是你的性别！<br />
+											
+										</div>
+
+									</li>
+									<li id="page_About">
+										<img src="images/bg_content.png" alt="" class="bg_cont">
+										<span class="back"><img src="images/nav2.png" alt="" usemap="#back"><a
+												href="index.html#close">返回</a></span>
+										<div class="pad">
+											<h2>恋爱历程</h2>
+											<div class="relative">
+												<div class="scroll">
+													<span>人物：刘懿冈 &amp; 张博涵</span>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;(下滑⬇)</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;你还记得么？</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;2023年3月9日。</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;我们互相加了微信。</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;一开始我只是想帮你。</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;没想到后来我对你心动了。</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;我开始害怕失去你，离不开你。</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;我爱你，我想一直陪在你身边，</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;在你需要我的时候可以帮助你，</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;不离不弃。</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;我明白你一直把我当成情侣式的朋友， </p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;这样也挺好的， </p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;有边界感的同时，又保持着很亲密，</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;不用像普通情侣那样。</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;不得不说，你考虑得很细致， </p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;我明白像这样的事还有很多， </p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;我悟性不高，没办法准确的理解。 </p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;所以需要你明确的回复。 </p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;----------------------------------</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;我不知道该怎样去诠释我对你的喜欢， </p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;我明白一味的付出可能会让你产生压力， </p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;但我不知道应该如何对你好， </p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;让你感受到我对你的爱。 </p>
+												</div>
+
+											</div>
+
+										</div>
+									</li>
+									<li id="page_Talk">
+										<img src="images/bg_content.png" alt="" class="bg_cont">
+										<span class="back"><img src="images/nav3.png" alt="" usemap="#back"><a
+												href="index.html#close">返回</a></span>
+										<div class="pad">
+											<h2>絮叨絮叨</h2>
+											<div class="relative">
+												<div class="scroll">
+													<div
+														style="width:100%;float: left; border-bottom: 1px solid #CCCCCC;">
+														博涵<br /><span style="float: right"> --刘懿冈 </span></div>
+
+
+
+													<div style="width:100%;float: left">
+														是不是觉得这个网页标题挺中二抽象的，我也这么觉得(狗头.jpg),不过我挺喜欢的。<br /> <br />
+														你曾经说过，比起日落你更喜欢看日出，因为日出代表希望。我好想带你去泰山看日出。<br />
+														和你在一起的时光很幸福，我时而觉得短暂，但幸运；张博涵先生，有幸可以遇到你，实乃欣喜；<br />
+														但与之伴随而来的还有误会，我不清楚发生了什么，可能是我带给你的压力太大了。<br />
+														可即便到现在我还是不明白有些话是什么意思。<br />
+														当时的我并不是在孤立你，只是有些闹气，我在为你突然的拉黑闹气，我在国庆等了你8天没有一条信息闹气。<br />
+														我却不知道其实都是我在无形中给你很多负面情绪和压力造成的。<br />
+														我对你没有任何暗示，只是发自内心的想对你好。<br />
+														----------------------------------------------<br />
+														好多事别往心里想，我们无法掌控的东西太多了，别人对我们的成见，鄙夷；<br />
+														我们无法要求任何人，做自己就好；如果受委屈了或者生气了可以试着找个人倾诉一下，尽量不要憋着，有时候我看见了或者感觉到也会很心疼。<br />
+														
+														----------------------------------------------<br />
+														以后还找男朋友的话，可以简单的观察一下脖子，面相里脖子粗的人有很大概率屌也会大<br />
+														上次你打我其实我挺高兴的，我知道你吃醋生气了,我甚至还和侯昊尘说打是亲骂是爱。<br />
+														我知道我用的方法不对，但以我现在的能力只能这样做，我想不到其他的破局之法了，每件事我都尽了全力<br />
+														（对不起，话多了，其实我看见这么多字也有些头疼，太想和你说话了，一时没忍住）<br />
+														<span style="float: right"> --刘懿冈
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li id="page_Message">
+										<img src="images/bg_content.png" alt="" class="bg_cont">
+										<span class="back"><img src="images/nav4.png" alt="" usemap="#back"><a
+												href="index.html#close">返回</a></span>
+										<div class="pad">
+											<h2>我的祝福</h2>
+											<div class="relative">
+												<div class="scroll">
+
+													<div style="min-height: 300px; padding-bottom: 50px;">
+														1.愿你青春永驻，笑容常开，永远保持对生活的热爱和追求。<br />
+														2.愿你在人生的旅途中，勇敢地面对挑战，坚定地走自己的路，创造出属于自己的辉煌。<br />
+														3.愿你拥有一颗年轻的心，充满激情和活力，永远保持对未来的憧憬和期待。<br />
+														4.愿你把握青春，努力奋斗，为自己和家人创造更加美好的未来。<br />
+														5.愿你在成长的道路上，不断学习、进步，成为自己想要成为的人，实现自己的梦想。<br />
+														6.愿你珍惜青春时光，与朋友、家人、爱人共同度过美好时光，留下难忘的回忆。<br />
+														7.愿你在未来的日子里，保持乐观、积极的态度，迎接每一个挑战和机遇。<br />
+														8.愿你以梦为马，不负韶华，勇往直前，无畏无惧。<br />
+														9.愿你心中充满阳光，无论遇到什么困难和挫折，都能保持乐观向上的心态。<br />
+														10.愿你坚持自我，保持独立，不随波逐流，坚定自己的信念和价值观。<br />
+														11.愿你拥有健康的生活方式，合理饮食，适量运动，保持良好的身心状态。<br />
+														12.愿你珍惜每一个与家人、朋友、爱人相处的时刻，用心去感受彼此的关爱和温暖<br />
+														<!-- 多说评论框 start -->
+														<div class="ds-thread" data-thread-key="yyu" data-title="bb"
+															data-url="http://"></div>
+
+														<script type="text/javascript">
+															var duoshuoQuery = {
+																short_name: "love90"
+															};
+															(function() {
+																var ds = document.createElement('script');
+																ds.type = 'text/javascript';
+																ds.async = true;
+																ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+																	'/static.duoshuo.com/embed.js';
+																ds.charset = 'UTF-8';
+																(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0])
+																.appendChild(ds);
+															})();
+														</script>
+														<!-- 多说公共JS代码 end -->
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li id="page_Blog">
+										<img src="images/bg_content.png" alt="" class="bg_cont">
+										<span class="back"><img src="images/nav5.png" alt="" usemap="#back"><a
+												href="index.html#close">返回</a></span>
+										<div class="pad">
+											<h2>爱的映像</h2>
+											<div class="relative">
+												<div class="scroll">
+													<p>垂直滚动条在这一行右侧，隐藏了</p>
+													<ul class="gallery">
+
+														<li>
+															<img src="images/uploadimage/img001.jpg" alt="Image 1" />
+														</li>
+														<li>
+															<img src="images/uploadimage/img002.jpg" alt="Image 2" />
+														</li>
+														<li>
+															<img src="images/uploadimage/img003.jpg" alt="Image 3" />
+														</li>
+														<li>
+															<img src="images/uploadimage/img004.jpg" alt="Image 4" />
+														</li>
+														<li>
+															<img src="images/uploadimage/img005.jpg" alt="Image 5" />
+														</li>
+														<li>
+															<img src="images/uploadimage/img006.jpg" alt="Image 6" />
+														</li>
+														<li>
+															<img src="images/uploadimage/img007.jpg" alt="Image 7" />
+
+														</li>
+														<li>
+															<img src="images/uploadimage/img008.jpg" alt="Image 8" />
+														</li>
+														<li>
+															<img src="images/uploadimage/img009.jpg" alt="Image 9" />
+														</li>
+														<li>
+															<img src="images/uploadimage/img0010.jpg" alt="Image 10" />
+														</li>
+
+													</ul>
+													<p sans-serif;font-size: 12px;line-height: 1.5;>
+														图片有点大，学艺不精，不会调......</p>
+													<p> 下方是之前做的生日视频⬇</p>
+													<a href="video.html">点击进入视频</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li id="page_Time">
+										<img src="images/bg_content.png" alt="" class="bg_cont">
+										<span class="back"><img src="images/nav6.png" alt="" usemap="#back"><a
+												href="index.html#close">返回</a></span>
+										<div class="pad">
+											<h2>时光沙漏</h2>
+											<div id="loveHeart" style="margin-top: 30px;font-size: 25px;">
+												<span style="">你知道我们相识多久了吗？</span>
+												<div id="elapseClock" style="margin: 10px 0px 10px 0px;"></div>
+												<img src="images/1.gif" />　　　　<img src="images/2.gif" /><br /><br />
+												<div id="loveu">
+													爱：从2023-3-9开始！<br />不是很长但对我来说很幸福<br />
+
+													<div class="signature" style="float: right; margin-right: 50px;">
+														to博涵 </div>
+												</div>
+											</div>
+										</div>
+						
+
+
+						</ul>
+						</article>
+						<!--content end-->
+					</div>
+				</div>
+				<div class="bg1">
+					<div class="main">
+						<!--footer -->
+						<footer style="line-height:20px">
+							<div id="copyright">
+								<a href="" target=_blank></a> 
+								<script language="JavaScript"></script>
+
+
+
+								</object>
+							</div>
+							<!-- {%FOOTER_LINK} -->
+						</footer>
+						<!--footer end-->
+					</div>
+				</div>
+				</div>
+				<script>
+					$(window).load(function() {
+						$('.page_spinner').fadeOut();
+						$('body').css({
+							overflow: 'visible'
+						});
+
+					})
+				</script>
+
+				<script type="text/javascript">
+					//修改时光沙漏时间
+					var offsetX = $("#loveHeart").width() / 2;
+					var offsetY = $("#loveHeart").height() / 2 - 55;
+					var together = new Date();
+					together.setFullYear(2023, 2, 09);
+					together.setHours(18);
+					together.setMinutes(31);
+					together.setSeconds(0);
+					together.setMilliseconds(0);
+
+					setTimeout(function() {
+						adjustWordsPosition();
+						startHeartAnimation();
+					}, 3000);
+
+					timeElapse(together);
+					setInterval(function() {
+						timeElapse(together);
+					}, 500);
+
+					adjustCodePosition();
+					$("#code").typewriter();
+				</script>
+
+
+				<!--coded by koma-->
+
+				<!--LIVEDEMO_00 -->
+				
+				<audio controls>
+					<source src="多远都要在一起.mp3" controls preload="auto" type="audio/mp3" autoplay loop>
+					您的浏览器不支持音频元素。
+				</audio>
+				<div id="lyrics"></div>  
+				  <script>  
+				    document.addEventListener('DOMContentLoaded', function() {  
+				      // 在这里执行你的JavaScript代码，此时DOM已经完全加载  
+				    });  
+				  </script>  
+
+			</body>
+</html>
